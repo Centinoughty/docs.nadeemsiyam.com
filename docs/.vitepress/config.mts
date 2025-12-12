@@ -11,9 +11,23 @@ export default defineConfig({
     ],
     sidebar: {
       "/ansible": [
-        { text: "Introduction", link: "/ansible/" },
-        { text: "Installation", link: "/ansible/installation" },
-        { text: "Foundation", link: "/ansible/foundation" },
+        {
+          items: [
+            { text: "Introduction", link: "/ansible/" },
+            { text: "Installation", link: "/ansible/installation" },
+            { text: "Foundation", link: "/ansible/foundation" },
+            {
+              text: "Playbooks",
+              collapsed: true,
+              items: [
+                {
+                  text: "Create user",
+                  link: "/ansible/playbooks/create-user",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
