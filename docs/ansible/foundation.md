@@ -62,3 +62,11 @@ create a file named `setup.yml`. The `yaml` syntax is important.
 ```bash
 ansible-playbook -i inventory.ini setup.yml
 ```
+
+## NOTE
+
+Idempotency is a key Ansible concept. If you run the above ansible playbook above a second time, Ansible will say `changed=0`. It sees the file already exists and matches the desired state, so it does nothing. It does not overwrite unless necessary.
+
+- Ad-hoc commands are for quick tests.
+- Playbooks are for repeatable, complex automation.
+- Modules (like file and copy) abstract the complexity of OS commands.
