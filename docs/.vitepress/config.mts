@@ -13,6 +13,7 @@ export default defineConfig({
       "/ansible": [
         { text: "Introduction", link: "/ansible/" },
         { text: "Installation", link: "/ansible/installation" },
+        { text: "Foundation", link: "/ansible/foundation" },
       ],
     },
     socialLinks: [
