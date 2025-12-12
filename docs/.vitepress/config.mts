@@ -21,6 +21,10 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
+                  text: "Check hosts",
+                  link: "/ansible/playbooks/check-hosts",
+                },
+                {
                   text: "Clear home dir",
                   link: "/ansible/playbooks/clear-home",
                 },
