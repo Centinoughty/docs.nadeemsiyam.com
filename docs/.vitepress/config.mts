@@ -21,8 +21,16 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
+                  text: "Clear home dir",
+                  link: "/ansible/playbooks/clear-home",
+                },
+                {
                   text: "Create user",
                   link: "/ansible/playbooks/create-user",
+                },
+                {
+                  text: "Delete user",
+                  link: "/ansible/playbooks/delete-user",
                 },
               ],
             },
