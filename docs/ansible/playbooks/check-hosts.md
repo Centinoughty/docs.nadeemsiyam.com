@@ -4,8 +4,6 @@
 ---
 - name: Check which machines are up
   hosts: all
-  vars_files:
-    - vault.yml
   gather_facts: no
 
   tasks:
