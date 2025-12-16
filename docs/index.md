@@ -17,4 +17,8 @@ features:
   - title: Ansible
     details: Learn automation with ansible
     link: /ansible/
+  
+  - title: TryHackMe
+    details: My passion in the world of cybersecurity
+    link: /tryhackme/
 ---

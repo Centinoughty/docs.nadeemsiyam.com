@@ -41,6 +41,14 @@ export default defineConfig({
           ],
         },
       ],
+      "/tryhackme/": [
+        {
+          items: [
+            { text: "Introduction", link: "/tryhackme/" },
+            { text: "Advent of Cyber", link: "/tryhackme/adventofcyber" },
+          ],
+        },
+      ],
     },
     socialLinks: [
       {
