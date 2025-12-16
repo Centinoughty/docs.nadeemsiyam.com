@@ -36,3 +36,9 @@ This task focuses on exploring a Linux user environment to uncover hidden inform
 Since Linux is used  for almost all the servers worldwide, being able to navigate and inspect user directories is a critical skill for defenders.
 
 You need to check for hidden files, as attackers often hide their files using dot-prefixed filenames. Malicious files are often found in user home directories
+
+## The Leak in the List
+
+This task simulates a common defensive scenario where an organisation suspects that employee may have been exposed in a data breach. With emails failing and abnormal behaviour, McSkidy's account beocmes a point of interest. The objective is to determine whether his email appeared in any known data breaches.
+
+Defenders uses services like **Have I Been Pwned** to identify exposed email addresses, and to trigger preventive actions such as passowrd resets.
