@@ -42,3 +42,9 @@ You need to check for hidden files, as attackers often hide their files using do
 This task simulates a common defensive scenario where an organisation suspects that employee may have been exposed in a data breach. With emails failing and abnormal behaviour, McSkidy's account beocmes a point of interest. The objective is to determine whether his email appeared in any known data breaches.
 
 Defenders uses services like **Have I Been Pwned** to identify exposed email addresses, and to trigger preventive actions such as passowrd resets.
+
+## WiFi Woes in Wareville
+
+This task tells that for most of the devies which you install, we will be given simple passwords or common passwords in the beginning. It is important that you update the username and password, so that you will reduce the possible attacks.
+
+Also, note that do not use a password which you have used somewhere else because, if your password to one account gets leaked doesn't make your other accounts vulnerable.
