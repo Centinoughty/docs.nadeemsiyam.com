@@ -54,3 +54,9 @@ Also, note that do not use a password which you have used somewhere else because
 This task is another proof to Principle of Least Privilege (PoLP), a core security concept where users, applications, or systems are granted only the minimum permission/access needed to perform their specific job functions, and nothing more, to minimize damage from errors or breaches.
 
 This is exaclty what happened here, an app was accidentally given access to the password vault.
+
+## The Chatbot Confession
+
+It is okay to use AI tools for your daily works for productivity, but defenders must know how to prevent them from oversharing. You need to make sure that you do not share passwords, tokens, personal or private data, or important URLs, which are in the staging, etc.
+
+It is important that any information with the Chatbot, are really in a vulnerable place, as anyone with the right skills could easily get them. So, make sure that you do not overshare anything with your chatbot.
