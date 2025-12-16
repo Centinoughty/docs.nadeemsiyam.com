@@ -45,7 +45,15 @@ export default defineConfig({
         {
           items: [
             { text: "Introduction", link: "/tryhackme/" },
-            { text: "Advent of Cyber", link: "/tryhackme/adventofcyber" },
+            {
+              text: "Advent of Cyber 2025",
+              collapsed: true,
+              items: [
+                { text: "Introduction", link: "/tryhackme/adventofcyber/" },
+                { text: "Room 1", link: "/tryhackme/adventofcyber/room-1" },
+                { text: "Room 2", link: "/tryhackme/adventofcyber/room-2" },
+              ],
+            },
           ],
         },
       ],
