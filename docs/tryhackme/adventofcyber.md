@@ -21,3 +21,10 @@ Here, `chocolate.exe` should be considered **malicious** and should not be execu
 ## Welcome to the AttackBox!
 
 This task is fairly simple, and its main objective is to get familiar with the linux environment and its navigation. Understanding basic commands are important when it comes to cybersecurity workspaces.
+
+## The CMD Conundrum
+
+This task helps you to get familiar with the Windows Command Prompt. I learnt to use the commands `dir` and `dir /a`.
+
+- `dir` command lists all files in the current directory
+- `dir /a` command list all the files including hidden files in the current directory
