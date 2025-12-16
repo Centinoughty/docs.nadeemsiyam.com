@@ -60,3 +60,7 @@ This is exaclty what happened here, an app was accidentally given access to the 
 It is okay to use AI tools for your daily works for productivity, but defenders must know how to prevent them from oversharing. You need to make sure that you do not share passwords, tokens, personal or private data, or important URLs, which are in the staging, etc.
 
 It is important that any information with the Chatbot, are really in a vulnerable place, as anyone with the right skills could easily get them. So, make sure that you do not overshare anything with your chatbot.
+
+## The Bunny's Browser Trail
+
+Monitoring logs in a web server, is an important task, which could tell you if you are under an attack or not. Heavy traffic, attacks using bot, are also major concerns which defenders should worry about. For an HTTP request, you could checkout the fields of `User Agent`, which tell about more about the client which is trying to initiate a connection with the webserver. User Agent strings help defenders spot automated or suspicious visitors in network logs.
