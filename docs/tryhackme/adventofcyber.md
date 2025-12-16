@@ -28,3 +28,11 @@ This task helps you to get familiar with the Windows Command Prompt. I learnt to
 
 - `dir` command lists all files in the current directory
 - `dir /a` command list all the files including hidden files in the current directory
+
+## Linux Lore
+
+This task focuses on exploring a Linux user environment to uncover hidden information. Since the last login originated from a linux server, and the objective is to investigate his home directory for clues that could explain the strange system behavior.
+
+Since Linux is used  for almost all the servers worldwide, being able to navigate and inspect user directories is a critical skill for defenders.
+
+You need to check for hidden files, as attackers often hide their files using dot-prefixed filenames. Malicious files are often found in user home directories
