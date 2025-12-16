@@ -48,3 +48,9 @@ Defenders uses services like **Have I Been Pwned** to identify exposed email add
 This task tells that for most of the devies which you install, we will be given simple passwords or common passwords in the beginning. It is important that you update the username and password, so that you will reduce the possible attacks.
 
 Also, note that do not use a password which you have used somewhere else because, if your password to one account gets leaked doesn't make your other accounts vulnerable.
+
+## The App Trap
+
+This task is another proof to Principle of Least Privilege (PoLP), a core security concept where users, applications, or systems are granted only the minimum permission/access needed to perform their specific job functions, and nothing more, to minimize damage from errors or breaches.
+
+This is exaclty what happened here, an app was accidentally given access to the password vault.
