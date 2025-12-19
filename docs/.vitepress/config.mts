@@ -41,6 +41,27 @@ export default defineConfig({
           ],
         },
       ],
+      "/blogs": [
+        {
+          items: [
+            { text: "About", link: "/blogs" },
+            {
+              text: "Ethical Hacking",
+              items: [
+                { text: "Overview", link: "/blogs/hacking" },
+                { text: "Disclaimer", link: "/blogs/hacking/disclaimer" },
+                {
+                  text: "Docker",
+                  collapsed: true,
+                  items: [
+                    { text: "Privilege Escalation", link: "/blogs/hacking/docker/privilege-escalation" },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
       "/tryhackme/": [
         {
           items: [

@@ -7,8 +7,8 @@ hero:
   tagline: "Clean, organized, and practical documentation"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Blogs
+      link: /blogs
     - theme: alt
       text: About Me
       link: https://nadeemsiyam.com
