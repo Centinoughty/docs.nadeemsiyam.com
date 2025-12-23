@@ -50,7 +50,7 @@ Using tools like [hash identifier](https://hashes.com) can help you identify wha
 
 ### 4. UUID
 
-Most of the vouchers which you see in daily life, is in a format of UUID. Using a website called [UUID Decoded](https://www.uuidtools.com/decode), we could understand what UUID format was used. In this room, the voucers used where of UUID version 1. The issue with version 1 is that if we know the exact date the code was generared, we can recover the UUID. For example, if the codes where generated between 20:00 and 21:00, we can generate UUIDs for the entire time period, which is 3600 vouchers, which we could use in a bruteforce attack to aim to recover and claim more gifts
+Most of the vouchers which you see in daily life, is in a format of UUID. Using a website called [UUID Decoder](https://www.uuidtools.com/decode), we could understand what UUID format was used. In this room, the voucers used where of UUID version 1. The issue with version 1 is that if we know the exact date the code was generared, we can recover the UUID. For example, if the codes where generated between 20:00 and 21:00, we can generate UUIDs for the entire time period, which is 3600 vouchers, which we could use in a bruteforce attack to aim to recover and claim more gifts
 
 ## Takeaways
 
