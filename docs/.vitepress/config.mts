@@ -54,7 +54,10 @@ export default defineConfig({
                   text: "Docker",
                   collapsed: true,
                   items: [
-                    { text: "Privilege Escalation", link: "/blogs/hacking/docker/privilege-escalation" },
+                    {
+                      text: "Privilege Escalation",
+                      link: "/blogs/hacking/docker/privilege-escalation",
+                    },
                   ],
                 },
               ],
@@ -76,6 +79,7 @@ export default defineConfig({
                 { text: "Room 3", link: "/tryhackme/adventofcyber/room-3" },
                 { text: "Room 4", link: "/tryhackme/adventofcyber/room-4" },
                 { text: "Room 5", link: "/tryhackme/adventofcyber/room-5" },
+                { text: "Room 6", link: "/tryhackme/adventofcyber/room-6" },
               ],
             },
           ],
