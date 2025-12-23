@@ -59,3 +59,7 @@ Most of the vouchers which you see in daily life, is in a format of UUID. Using 
 - Predictable IDs are dangerous without proper checks
 - IDOR vulnerabilties are extremely common in APIs
 - Always validate ownership server-side
+
+## Sources
+
+- [What's the deal with IDOR](https://mwrcybersec.com/whats-the-deal-with-idor)
