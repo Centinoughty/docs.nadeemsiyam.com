@@ -81,6 +81,7 @@ export default defineConfig({
                 { text: "Room 5", link: "/tryhackme/adventofcyber/room-5" },
                 { text: "Room 6", link: "/tryhackme/adventofcyber/room-6" },
                 { text: "Room 7", link: "/tryhackme/adventofcyber/room-7" },
+                { text: "Room 8", link: "/tryhackme/adventofcyber/room-8" },
               ],
             },
           ],
