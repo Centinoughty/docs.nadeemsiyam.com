@@ -70,6 +70,10 @@ export default defineConfig({
           items: [
             { text: "Introduction", link: "/tryhackme/" },
             {
+              text: "Networking Concepts",
+              link: "/tryhackme/networking-concepts",
+            },
+            {
               text: "Advent of Cyber 2025",
               collapsed: true,
               items: [
